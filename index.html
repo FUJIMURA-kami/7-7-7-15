@@ -4,6 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>献立</title>
+  <style>
+    a:link {
+      color: blueviolet;
+    }
+    a:visited {
+      color: black;
+    }
+    a:hover {
+      color: red;
+    }
+    a:active {
+      color: red;
+    }
+    body {
+      width: 800px;
+      margin-left:auto;
+      margin-right: auto;
+      background-color:rgb(255, 253, 243);
+    }
+    #kondate {
+      font-weight: bold;
+      padding-left: 20px;
+      background-color: aquamarine;
+      border: 2px dotted black;
+    }
+    #buy {
+      font-weight: bold;
+      padding-left: 20px;
+      border: 2px dotted black;
+    }
+    .return {
+      text-align: right;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      margin-top: 10px;
+    }
+    h3 {
+      margin-top: 40px;
+      font-size: 1.5rem;
+      padding-left: 20px;
+    }
+  </style>
 </head>
 <body>
   <h1>自炊メニュー</h1>
@@ -16,8 +62,8 @@
       <li><a href="#buy7/10">7/10</a></li>
       <li><a href="#buy7/13">7/13</a></li>
     </ul>
-    <hr>
   </div>
+  <hr>
   <div id="kondate">
     <h2>今週の献立</h2>
     <ul>
@@ -31,8 +77,8 @@
       <li><a href="#7/14">7/14 鮭のホイル焼き</a></li>
       <li><a href="#7/15">7/15 鶏肉のクリームシチュー</a></li>
     </ul>
-    <hr>
   </div>
+  <hr>
   <div id="buy7/7">
     <h3>7月7日の買い物リスト</h3>
     <ul>
@@ -56,8 +102,9 @@
       <li>ねぎ：1本</li>
       <li>調味料</li>
     </ul>
-    <hr>
+    <p class="return"><a href="#buy">TOPへ戻る</a></p>
   </div>
+  <hr>
   <div id="7/7">
     <h3>7月7日</h3>
     <ol class="konsyousai">
@@ -127,6 +174,7 @@
       </li>
       <br>
     </ol>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/8">
@@ -155,7 +203,7 @@
       </li>
       <br>
       <li>サラダ
-        <p>レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
+        <p>・レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
       </li>
       <br>
       <li>みそ汁
@@ -167,6 +215,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/9">
@@ -199,7 +248,7 @@
       </li>
       <br>
       <li>サラダ
-        <p>レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
+        <p>・レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
       </li>
       <br>
       <li>みそ汁
@@ -211,6 +260,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="buy7/10">
@@ -229,6 +279,7 @@
       <li>卵：3個</li>
       <li>(調味料)</li>
     </ul>
+    <p class="return"><a href="#buy">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/10">
@@ -300,6 +351,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/11">
@@ -332,7 +384,7 @@
       </li>
       <br>
       <li>サラダ
-        <p>レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
+        <p>・レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
       </li>
       <br>
       <li>みそ汁
@@ -344,6 +396,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/12">
@@ -373,7 +426,7 @@
       </li>
       <br>
       <li>サラダ
-        <p>レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
+        <p>・レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
       </li>
       <br>
       <li>みそ汁
@@ -385,6 +438,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="buy7/13">
@@ -404,6 +458,7 @@
       <li>卵：6個(7/15以降でも使用)</li>
       <li>調味料</li>
     </ul>
+    <p class="return"><a href="#buy">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/13">
@@ -478,6 +533,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/14">
@@ -507,7 +563,7 @@
       </li>
       <br>
       <li>サラダ
-        <p>レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
+        <p>・レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
       </li>
       <br>
       <li>みそ汁
@@ -519,6 +575,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
   <hr>
   <div id="7/15">
@@ -549,7 +606,7 @@
       </li>
       <br>
       <li>サラダ
-        <p>レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
+        <p>・レタス、きゅうり、トマトなどお好みの野菜で簡単に。</p>
       </li>
       <br>
       <li>みそ汁
@@ -561,6 +618,7 @@
       </li>
     </ol>
     <br>
+    <p class="return"><a href="#kondate">TOPへ戻る</a></p>
   </div>
 </body>
 </html>
